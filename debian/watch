@@ -1,0 +1,4 @@
+version=4
+opts=filenamemangle=s/.*\/(.*)\/download/unreachable-$1\.tar\.gz/g\ 
+ https://qa.debian.org/cgi-bin/fakeupstream.cgi?upstream=crates.io/unreachable .*/crates/unreachable/@ANY_VERSION@/download
+
